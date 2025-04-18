@@ -1,0 +1,50 @@
+
+.container {
+    padding: 20px 40px; 
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #0A2342;
+    margin-bottom: 20px;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: black;
+    color: white;
+}
+
+.card-column {
+    padding: 15px; 
+}
+
+.card {
+    background-color: #fff; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    border-radius: 8px; 
+    overflow: hidden; 
+}
+
+.card-img-top {
+    width: 100%;
+    height: 250px; 
+    object-fit: cover; 
+}
+
+@media (max-width: 768px) {
+    .card-column {
+        padding: 10px;
+    }
+    .container {
+        padding: 15px; 
+    }
+}

@@ -1,0 +1,70 @@
+h1, h2 {
+    text-align: center;
+}
+body {
+    margin: 0;
+    font-family: Garamond, serif;
+}
+
+input[type=submit]{
+    border: none;
+    background-color: #A3BCF9;
+    color: #ffffff;
+    padding: 16px 32px;
+    cursor: pointer;
+    width: 30%;
+}
+.reg_rectangle{
+    position: absolute;
+    right: 0px;
+    width: 45%;
+    height: 75%;
+    right: 18%;
+    bottom: 0px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+input[type=submit]:hover{
+    background-color: #626f91;
+    color: white;
+}
+
+input[type=password], input[type=text]{
+        width: 70%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+}
+.register_header{
+    position: absolute;
+    top: 50px;
+    left: 38%;
+}
+#reg_slogan{
+text-align: center;
+color: #52606D;
+font-size: 20px;
+position: relative;
+top:-20px;
+}
+.reg_element{
+    position: absolute;
+    right: 0px;
+    width: 55%;
+    height: 94.1%;
+    bottom: 0px;
+    margin: 0 auto;
+}
+#regH2_form{
+position: relative;
+left: -110px;
+}
+#reg_circle{
+height:100%;
+width: 100%;
+}
